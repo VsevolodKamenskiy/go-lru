@@ -1,11 +1,11 @@
-# LRU Cache Implementation
+# LRU Cache implementation
 
 An efficient LRU cache implementation in Go with O(1) time complexity for all operations.
 
 ## Features
 - Constant time Add, Get, and Remove operations
 - Automatic eviction of least recently used items
-- Thread-unsafe (concurrent use requires external synchronization)
+- Thread-safe for concurrent usage
 
 ## Usage
 ```go
