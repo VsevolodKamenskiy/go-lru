@@ -9,7 +9,7 @@ An efficient LRU cache implementation in Go with O(1) time complexity for all op
 
 ## Usage
 ```go
-import "github.com/VsevolodKamenskiy/go-lru"
+import "github.com/VsevolodKamenskiy/go-lru/pkg/lru"
 
 func main() {
     cache := lru.NewLRUCache(100)
